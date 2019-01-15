@@ -6,7 +6,7 @@ export default class Portal extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      defaultaccount: '',
+      defaultaccount: this.props.defaultaccount,
       balances: ''
     }
   }
@@ -21,6 +21,9 @@ export default class Portal extends Component {
   /* Funciones */
   async getBalances() {
 
+
+
+    
   }
 
 
@@ -28,17 +31,13 @@ export default class Portal extends Component {
 
   render() {
     return (
-      <div className="App">
+        <div>
         <header className="App-header">
-
+        Usuario: {this.props.defaultaccount}
         </header>
-        <body>
+        </div>
 
 
-        </body>
-
-
-      </div>
     );
   }
 }

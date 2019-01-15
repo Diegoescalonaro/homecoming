@@ -12,7 +12,7 @@ ReactDOM.render(
     <Switch>
     <Route path='/home' component={Home} exact={true}/>
     <Route path="/portal/" component={Portal}/>
-    <Redirect to='/portal' />
+    <Redirect to='/home' />
     </Switch>
   </Router>, document.getElementById('root'));
 

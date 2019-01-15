@@ -4,7 +4,7 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 60vmin;
 }
 
 .App-header {
@@ -16,11 +16,31 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background: -webkit-linear-gradient(#003345, rgb(27, 134, 151)),
+             -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+
 }
 
 .App-link {
   color: #61dafb;
 }
+
+.inputCorreo{
+  width:60%;
+  text-align:center;
+  font-size:80%;
+}
+.button{
+
+  font-size:80%;
+  color:white;
+  margin-top:10px;
+  border-color:rgb(225, 175, 95);
+  background-color:rgb(181, 150, 101);
+  height:40px;
+  width:100px;
+}
+
 
 
 
