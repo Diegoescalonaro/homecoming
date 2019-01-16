@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './components/Home';
 import Portal from './components/Portal';
+import Ranking from './components/Ranking';
 import * as serviceWorker from './serviceWorker';
 
 import { Switch, BrowserRouter as Router, Route, Redirect } from "react-router-dom";
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Switch>
     <Route path='/home' component={Home} exact={true}/>
     <Route path="/portal/" component={Portal}/>
+    <Route path="/ranking/" component={Ranking}/>
     <Redirect to='/home' />
     </Switch>
   </Router>, document.getElementById('root'));

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../images/h.png';
 import './Portal.css';
 
 export default class Portal extends Component {
@@ -35,6 +34,7 @@ export default class Portal extends Component {
         <header className="App-header">
         Usuario: {this.props.defaultaccount}
         </header>
+        <button></button>
         </div>
 
 
