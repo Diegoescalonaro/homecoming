@@ -1,0 +1,29 @@
+
+@font-face {
+  font-family: 'HARRYP';
+  src: url('../images/HARRYP__.TTF') format('truetype');
+}
+
+.div-Group{
+justify-content: center;
+margin:auto;
+width:100%;
+
+}
+
+  h2{
+    width:100%;
+    text-align:center;
+    font-family: 'HARRYP';
+    font-size:400%;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

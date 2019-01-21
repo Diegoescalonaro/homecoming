@@ -1,5 +1,12 @@
+
+@font-face {
+  font-family: 'HARRYP';
+  src: url('../images/HARRYP__.TTF') format('truetype');
+}
+
 .App {
     text-align: center;
+    font-family: 'HARRYP';
   }
   
   .App-logo {
@@ -22,20 +29,24 @@
     color: #61dafb;
   }
 
-  .img-capas{
+  .div-capas{
     align-content:center;
     justify-content: center;
     display:flex;
-    width:100%;
-    max-height:100vh;
+    width:100vw;
+    max-width:100%;
+    height:auto;
     margin-bottom:100px;
+    margin:auto;
+    margin-right:20%;
+    margin-left:20%;
   }
 
   .img-cap{
     background:none;
     width:100%;
-    max-height:100vh;
     border:none;
+    margin:auto;
   }
   .img-cap:hover {
   }
@@ -46,6 +57,10 @@
   h2{
     width:100%;
     text-align:center;
+    font-family: 'HARRYP';
+    font-size:400%;
+    margin:40px;
+
   }
 
   @keyframes App-logo-spin {
